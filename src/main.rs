@@ -61,22 +61,22 @@ fn main() {
 //     }
 // }
 
-// // Uncomment the following function if you want to use it instead of the Config struct 
+// Uncomment the following function if you want to use it instead of the Config struct 
 
 
-// // fn parse_config(args: &[String]) -> Config {
-// //     if args.len() < 3 {
-// //         eprintln!("Usage: {} <query> <file_path>", args[0]);
-// //         std::process::exit(1);
-// //     }
+// fn parse_config(args: &[String]) -> Config {
+//     if args.len() < 3 {
+//         eprintln!("Usage: {} <query> <file_path>", args[0]);
+//         std::process::exit(1);
+//     }
 
-// //     let query = args[1].clone();
-// //     let file_path = args[2].clone();
+//     let query = args[1].clone();
+//     let file_path = args[2].clone();
 
-// //     if !fs::metadata(&file_path).is_ok() {
-// //         eprintln!("Error: File '{}' does not exist.", file_path);
-// //         std::process::exit(1);
-// //     }
+//     if !fs::metadata(&file_path).is_ok() {
+//         eprintln!("Error: File '{}' does not exist.", file_path);
+//         std::process::exit(1);
+//     }
 
-// //     Config { query, file_path}
-// // }
+//     Config { query, file_path}
+// }
